@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DB837891A1D05FA009B4837 /* Albert_Einstein_by_ken_chen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DB837881A1D05FA009B4837 /* Albert_Einstein_by_ken_chen.jpg */; };
 		1DF3A3951A1B9D0800FE72A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3A3941A1B9D0800FE72A6 /* AppDelegate.swift */; };
 		1DF3A3971A1B9D0800FE72A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3A3961A1B9D0800FE72A6 /* ViewController.swift */; };
 		1DF3A39A1A1B9D0800FE72A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3A3981A1B9D0800FE72A6 /* Main.storyboard */; };
 		1DF3A39C1A1B9D0800FE72A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3A39B1A1B9D0800FE72A6 /* Images.xcassets */; };
 		1DF3A39F1A1B9D0800FE72A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3A39D1A1B9D0800FE72A6 /* LaunchScreen.xib */; };
 		1DF3A3AB1A1B9D0800FE72A6 /* BF_iOS8_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF3A3AA1A1B9D0800FE72A6 /* BF_iOS8_1Tests.swift */; };
+		1DF3A3B51A1BA64700FE72A6 /* hello_world.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF3A3B41A1BA64700FE72A6 /* hello_world.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DB837881A1D05FA009B4837 /* Albert_Einstein_by_ken_chen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Albert_Einstein_by_ken_chen.jpg; sourceTree = "<group>"; };
 		1DF3A38F1A1B9D0800FE72A6 /* BF iOS8 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BF iOS8 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF3A3931A1B9D0800FE72A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DF3A3941A1B9D0800FE72A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		1DF3A3A41A1B9D0800FE72A6 /* BF iOS8 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BF iOS8 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF3A3A91A1B9D0800FE72A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DF3A3AA1A1B9D0800FE72A6 /* BF_iOS8_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BF_iOS8_1Tests.swift; sourceTree = "<group>"; };
+		1DF3A3B41A1BA64700FE72A6 /* hello_world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hello_world.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		1DF3A3921A1B9D0800FE72A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1DB837881A1D05FA009B4837 /* Albert_Einstein_by_ken_chen.jpg */,
+				1DF3A3B41A1BA64700FE72A6 /* hello_world.png */,
 				1DF3A3931A1B9D0800FE72A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF3A39A1A1B9D0800FE72A6 /* Main.storyboard in Resources */,
+				1DF3A3B51A1BA64700FE72A6 /* hello_world.png in Resources */,
+				1DB837891A1D05FA009B4837 /* Albert_Einstein_by_ken_chen.jpg in Resources */,
 				1DF3A39F1A1B9D0800FE72A6 /* LaunchScreen.xib in Resources */,
 				1DF3A39C1A1B9D0800FE72A6 /* Images.xcassets in Resources */,
 			);
@@ -341,6 +349,7 @@
 				INFOPLIST_FILE = "BF iOS8 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,6 +360,7 @@
 				INFOPLIST_FILE = "BF iOS8 1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -407,6 +417,7 @@
 				1DF3A3B01A1B9D0800FE72A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DF3A3B11A1B9D0800FE72A6 /* Build configuration list for PBXNativeTarget "BF iOS8 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +426,7 @@
 				1DF3A3B31A1B9D0800FE72A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
